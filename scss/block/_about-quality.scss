@@ -1,0 +1,47 @@
+
+.about-quality{
+  padding-bottom: 168px;
+}
+
+.about-quality__box{
+  background-color: $secondary;
+  padding-top: 88px;
+  padding-bottom: 176px;
+  padding-left: 85px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.about-quality__title{
+  max-width: 517px;
+  font-family: $fonts;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+color: #FEFCF7;
+padding-bottom: 32px;
+}
+
+.about-quality__text{
+max-width: 540px;
+font-family: $main-font;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+mix-blend-mode: normal;
+opacity: 0.8;
+}
+
+.about-quality__img-box{
+  position: absolute;
+  width: 445px;
+  height: 474px;
+  background-repeat: no-repeat;
+  background-image: url(../img/quality-mg.png);
+  top: -88px;
+  right: 85px;
+}

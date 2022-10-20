@@ -1,0 +1,32 @@
+.about-hero{
+  padding-bottom: 168px;
+}
+
+.about-hero__block {
+  margin-top: 115px;
+  background-repeat: no-repeat;
+  background-image: url('../img/hero-bg-img.jpg');
+  padding-top: 137px;
+  padding-bottom: 137px;
+  padding-left: 85px;
+
+}
+
+.about-hero__title {
+  max-width: 188px;
+  font-family: $fonts;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  padding-bottom: 24px;
+}
+
+.about-hero__text{
+  max-width: 445px;
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+}
